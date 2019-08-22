@@ -1,0 +1,11 @@
+.splash-screen-wrapper {
+    height: auto;
+    padding: 40px;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .splash-screen-wrapper {
+        padding: 20px;
+    }
+}

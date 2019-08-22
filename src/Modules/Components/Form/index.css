@@ -1,0 +1,127 @@
+.splash-screen-wrapper-body {
+    height: inherit;
+    
+}
+
+.splash-screen-wrapper-body-title {
+    margin-top: 0;
+    color: #42a4ff;
+    font-weight: 100;
+}
+
+.splash-screen-wrapper-body-paragraph {
+    color: #656467;
+}
+
+.splash-screen-wrapper-body-list {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+    color: #656467;
+}
+
+.splash-screen-wrapper-body-list-item {
+    margin-bottom: 15px;
+    color: #656467;
+}
+
+.splash-screen-wrapper-body-form-wrapper {
+    text-align: center;
+    color: #656467;
+}
+
+.splash-screen-wrapper-body-form-label {
+    margin: 10px 0;
+    color: #656467;
+}
+
+.splash-screen-wrapper-body-form-label-span {
+    color: #be1233;
+}
+
+.splash-screen-wrapper-body-form-field-wrapper {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    border: solid 1px #e8e7ec;
+    border-radius: 4px;
+    background-color: #f4f3f8;
+    color: #656467;
+}
+
+.splash-screen-wrapper-body-form-text-area-wrapper {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    border: solid 1px #e8e7ec;
+    border-radius: 4px;
+    min-height: 600px;
+    background-color: #f4f3f8;
+    color: #656467;
+}
+
+.splash-screen-wrapper-body-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.splash-screen-wrapper-body-form-text {
+    font-size: 20px;
+    background-color: #f4f3f8;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #9d9ca1;
+    outline: none;
+}
+
+.splash-screen-wrapper-body-form-text-area {
+    font-size: 20px;
+    background-color: #f4f3f8;
+    border-radius: 4px;
+    width: 98%;
+    border: none;
+    padding: 10px;
+    color: #9d9ca1;
+    outline: none;
+    min-height: 600px;
+    resize: none;
+}
+
+.submit-form-btn {
+    transition: all .5s;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #42a4ff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.submit-form-btn:hover {
+    background-color: #3585cf;
+}
+
+.submit-form-btn-disable {
+    transition: all .5s;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #8dc5ff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: no-drop;
+    outline: none;
+}
