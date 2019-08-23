@@ -17,43 +17,43 @@ export default class Overview extends Component {
           Добро пожаловать в <b>beneficio-salary!</b>
         </h3>
         <p className="splash-screen-wrapper-header-subtitle">
-          В данном ресурсе вы можете зарабатывая - стать чатстью нашей команды!
+          Зарабатывайте и станьте частью нашей команды!
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
-          <b>Весь процесс доволи простой:</b>
+          <b>Как это работает?</b>
         </p>
         <ul className="splash-screen-wrapper-header-list">
           <li className="splash-screen-wrapper-header-list-item">
-            <b>1.</b> Вы заполняете форму с детальным описанием вашего предложения по интернет заработку.
+            <b>1.</b> Вы заполняете форму с детальным описанием предложения по интернет заработку.
           </li>
           <li className="splash-screen-wrapper-header-list-item">
-            <b>2.</b> Наша команда проводит тест на уникальность, оценку ресурса и его тестирование.
+            <b>2.</b> Наша команда занимается тестированием и оценивает ресурс.
           </li>
           <li className="splash-screen-wrapper-header-list-item">
-            <b>3.</b> Если Ваше предложение уникально и работоспособно - мы связываемся с вами для уточнения данных по выплате и Вы получаете <b>$5</b>
+            <b>3.</b> Если предложение уникально и работоспособно - мы свяжемся с Вами для уточнения данных по выплате и Вы получаете <b>$5</b>.
           </li>
         </ul>
         <p className="splash-screen-wrapper-header-paragraph">
-          Все очень просто
+          Все очень просто!
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
-          Количество заявок на 1 день - <b>НЕОГРАНИЧЕНО</b>.
+          Количество заявок в день - <b>НЕОГРАНИЧЕНО</b>.
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
           Быстрая проверка Вашей заявки от наших специалистов!
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
-          Сделали <b>20</b> заявок за день - получили <b>$100</b>
+          Сделали <b>20</b> заявок в день - получили <b>$100</b>
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
-          <b>5</b> самым активным участникам марафона - выпадет возможность попасть в <b>beneficio data-search team!</b>
-        </p>
-        <p className="splash-screen-wrapper-header-paragraph">
-          А так же, мы бы не были beneficio если бы не придумали еще плюшек :)
+          <b>5</b> самым активным участникам марафона выпадет возможность попасть в <b>beneficio data-search team!</b>
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
           Каждые <b>20 успешных заявок</b>, увеличивают последующуую стоимость одной Вашей заявки!
-          Сделали <b>20 заявок</b> по <b>$5</b> - все последующие заявки автоматически будут по <b>$7</b> и тд.
+          Таким образом, сделали <b>20 заявок</b> по <b>$5</b> - все последующие автоматически будут по <b>$7</b> и на повышение!
+        </p>
+        <p className="splash-screen-wrapper-header-paragraph">
+          Оставайтесь с нами, Вас ждет еще очень много плюшек! :)
         </p>
         <button
           onClick={() => onChangeOverview()}

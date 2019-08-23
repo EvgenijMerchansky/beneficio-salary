@@ -22,20 +22,20 @@ export default class Form extends Component {
     return(
       <div className="splash-screen-wrapper-body">
         <h1 className="splash-screen-wrapper-body-title">
-          Заполни свою первую заявку!
+          Заполни свою заявку!
         </h1>
         <p className="splash-screen-wrapper-body-paragraph">
-          В форме ниже, детально опишите способ/ресурс заработка в интернете что бы он попадал под эти критерии:
+          В форме ниже опишите способ/ресурс заработка в интернете, чтобы он соответствовал этим критериям:
         </p>
         <ul className="splash-screen-wrapper-body-list">
           <li className="splash-screen-wrapper-body-list-item">
-            <b>1.</b> Ресурс должен быть <b>УНИКАЛЕН</b>.
+            <b>1.</b> <b>УНИКАЛЬНОСТЬ</b>.
           </li>
           <li className="splash-screen-wrapper-body-list-item">
-            <b>2.</b> Ресурс должен работать как можно <b>ДОЛГОВЕЧНЕЕ</b>.
+            <b>2.</b> Достаточно долгая временная <b>РАБОТОСПОСОБНОСТЬ.</b>
           </li>
           <li className="splash-screen-wrapper-body-list-item">
-            <b>3.</b> Описание должно содеражть весь путь - до шага вывода заработаных средств на <b>ЛИЧНЫЙ</b> счет/карту.
+            <b>3.</b> Описание должно содержать весь путь - до шага вывода заработанных средств на <b>ЛИЧНЫЙ</b> счет/карту.
           </li>
         </ul>
         <div className="splash-screen-wrapper-body-form-wrapper">
