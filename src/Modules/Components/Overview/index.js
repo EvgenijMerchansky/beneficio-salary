@@ -50,7 +50,7 @@ export default class Overview extends Component {
           <b>5</b> самым активным участникам марафона выпадет возможность попасть в <b>beneficio data-search team!</b>
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
-          Каждые <b>20 успешных заявок</b>, увеличивают последующуую стоимость одной Вашей заявки!
+          Каждые <b>20 успешных заявок</b>, увеличивают последующую стоимость одной Вашей заявки!
           Таким образом, сделали <b>20 заявок</b> по <b>$5</b> - все последующие автоматически будут по <b>$7</b> и на повышение!
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
