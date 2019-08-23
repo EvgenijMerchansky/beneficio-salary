@@ -12,6 +12,7 @@ export default class Overview extends Component {
         <img
           className="splash-screen-wrapper-header-logo"
           src="https://res.cloudinary.com/beneficio/image/upload/v1566472988/beneficio-ui-materials/xvt5aug27e7mhl98r7mk.png"
+          alt="logo"
         />
         <h3 className="splash-screen-wrapper-header-title">
           Добро пожаловать в <b>beneficio-salary!</b>
@@ -55,11 +56,14 @@ export default class Overview extends Component {
         <p className="splash-screen-wrapper-header-paragraph">
           Оставайтесь с нами, Вас ждет еще очень много плюшек! :)
         </p>
+        <p className="splash-screen-wrapper-header-paragraph">
+          <b>Текущие:</b> <a className="splash-screen-wrapper-header-paragraph-link" href="https://t.me/bsalary">Telegram</a>
+        </p>
         <button
           onClick={() => onChangeOverview()}
           className="splash-screen-wrapper-header-btn"
         >
-          Успешной охоты!
+          Добавить заявку!
         </button>
       </div>
     )
