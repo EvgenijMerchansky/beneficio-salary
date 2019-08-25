@@ -57,7 +57,7 @@ export default class Overview extends Component {
           Оставайтесь с нами, Вас ждет еще очень много плюшек! :)
         </p>
         <p className="splash-screen-wrapper-header-paragraph">
-          <b>Текущие:</b> <a className="splash-screen-wrapper-header-paragraph-link" href="https://t.me/bsalary">Telegram</a>
+          <b>Текущие (повторяющиеся/подобные ресурсы - не рассматриваются):</b> <a className="splash-screen-wrapper-header-paragraph-link" href="https://t.me/bsalary">Telegram</a>
         </p>
         <button
           onClick={() => onChangeOverview()}
